@@ -21,42 +21,16 @@ Este repositorio contiene dos ejercicios básicos para practicar el desarrollo d
 Calcula el promedio de una lista de calificaciones para un estudiante.
 
 - **Endpoint**: `POST /promedio` (Puerto 5000)
-- **Entrada (JSON)**:
-  ```json
-  {
-      "nombre": "Juan",
-      "calificaciones": [80, 90, 85, 70]
-  }
-  ```
-- **Salida**:
-  ```json
-  {
-      "nombre": "Juan",
-      "promedio": 81.25
-  }
-  ```
+<img width="814" height="816" alt="image" src="https://github.com/user-attachments/assets/152d516d-c4a1-467d-82f3-586c3a86b5c4" />
+
 
 ## Ejercicio 2: API Conversor de Temperatura
 
 Convierte temperaturas entre Celsius (C) y Fahrenheit (F).
 
 - **Endpoint**: `POST /convertir-temperatura` (Puerto 5001)
-- **Entrada (JSON)**:
-  ```json
-  {
-      "valor": 100,
-      "escala": "C"
-  }
-  ```
-- **Salida**:
-  ```json
-  {
-      "valor_original": 100,
-      "escala_origen": "Celsius",
-      "valor_convertido": 212.0,
-      "escala_destino": "Fahrenheit"
-  }
-  ```
+<img width="791" height="840" alt="image" src="https://github.com/user-attachments/assets/69d2a512-297e-4a5e-862f-af4956704760" />
+
 
 ## Cómo Ejecutar
 
